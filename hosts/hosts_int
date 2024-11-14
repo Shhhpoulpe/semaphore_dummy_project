@@ -1,7 +1,12 @@
 [integration]
 
-local     ansible_host=127.0.0.1
+maxime2     ansible_host=10.0.2.15 ansible_ssh_private_key_file=~/.ssh/id_rsa
 
 
 [group1]
-local
+maxime2
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=maxime
+ansible_ssh_pass=maxime
