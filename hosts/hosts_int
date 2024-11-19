@@ -1,10 +1,17 @@
 [integration]
 
-maxime2     ansible_host=10.0.2.15
-
+maxime1     ansible_host=172.16.90.1
+maxime2     ansible_host=172.16.90.2
+maxime3     ansible_host=172.16.90.3
+maxime4     ansible_host=172.16.90.4
 
 [group1]
+maxime1
 maxime2
+
+[group2]
+maxime3
+maxime4
 
 [all:vars]
 ansible_connection=ssh
