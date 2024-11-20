@@ -7,5 +7,5 @@
 
     - name: Envoi de l'image
       ansible.builtin.copy:
-        src: funny_cat.pg
+        src: funny_cat.jpg
         dest: /home/maxime
