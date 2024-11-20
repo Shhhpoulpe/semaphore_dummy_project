@@ -15,5 +15,5 @@ maxime4
 
 [all:vars]
 ansible_connection=ssh
-ansible_user=maxime
-ansible_ssh_pass=maxime
+; ansible_user=maxime
+; ansible_ssh_pass=maxime
