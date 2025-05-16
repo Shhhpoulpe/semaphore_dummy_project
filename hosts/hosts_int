@@ -1,7 +1,8 @@
 [integration]
 
-maxime1     ansible_host=172.16.90.1
-maxime2     ansible_host=172.16.90.2
+# maxime1     ansible_host=172.16.90.1
+# maxime2     ansible_host=172.16.90.2
+localhost     ansible_host=172.0.0.1
 
 [group1]
 maxime1

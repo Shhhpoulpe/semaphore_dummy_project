@@ -5,7 +5,6 @@
       ansible.builtin.debug:
         msg: La machine {{ inventory_hostname }} fait partie du groupe {{ group_names }} sur le site {{ site }}
 
-    - name: Envoi de l'image
-      ansible.builtin.copy:
-        src: funny_cat.jpg
-        dest: /home/maxime
+    - name: affichage de la version de ansible
+      ansible.builtin.command:
+        cmd: ansible --version
